@@ -1,0 +1,159 @@
+{
+    "skills": [
+        {
+            "type" : "Programming",
+            "contents" : [
+                "Html",
+                "CSS",
+                "Javascript",
+                "MYSQL",
+                "Laravel",
+                "NodeJS",
+                "PHP",
+                "Express.JS",
+                "SASS/SCSS",
+                "Yarn",
+                "Gulp",
+                "JQuery",
+                "CSS animations"
+            ]
+        },
+        {
+            "type" : "Design",
+            "contents" : [
+                "Adobe Illustrator",
+                "Adobe Photoshop",
+                "Adobe XD",
+                "Figma"
+            ]
+        },
+        {
+            "type" : "Tools",
+            "contents" : [
+                "FileZilla",
+                "Backlog",
+                "Bootstrap",
+                "Chatwork",
+                "Git",
+                "Github",
+                "Microsoft Office",
+                "Skype",
+                "Slack",
+                "Zoom",
+                "Visual Studio Code",
+                "Wordpress",
+                "Sitebeat",
+                "Siteplus"
+            ]
+        },
+        {
+            "type" : "OS",
+            "contents" : [
+                "Linux (POP!_OS, Ubuntu)",
+                "Windows"
+            ]
+        },
+        {
+            "type" : "Others",
+            "contents" : [
+                "Network",
+                "Troubleshoot Hardware/ Software"
+            ]
+        }
+    ],
+    "experience" : [
+        {
+            "id": 1,
+            "company" : "Hipe Japan Inc.",
+            "position" : "Web Developer",
+            "tasks" : [
+                "Responsible in building responsive websites and web application system",
+                "Maintain a website for both company and the client",
+                "PSD/ PDF/ XD to HTML",
+                "Create new website and maintaining company website"
+            ],
+            "uses" : [
+                {
+                    "type" : "CMS",
+                    "content" : "Wordpress"
+                },
+                {
+                    "type" : "Plugins",
+                    "content" : "Elementor, ACF, and more.."
+                },
+                {
+                    "type" : "Design ",
+                    "content" : "Adobe XD, Adobe Photoshop, Adobe Illustrator"
+                },
+                {
+                    "type" : "Language",
+                    "content" : "HTML, CSS, Javascript, Laravel, Sass, Git, Gulp"
+                }
+            ],
+            "projects" : [
+                "en.hipe.asia",
+                "hipe.asia"
+            ]
+        },
+        {
+            "id": 2,
+            "company" : "JeenGross (HIPE CLIENT)",
+            "position" : "Web Developer",
+            "tasks" : [
+                "PSD/ PDF/ XD to HTML",
+                "Wordpress ( Custom Template )",
+                "CSS animations"
+            ],
+            "uses" : [
+                {
+                    "type" : "CMS",
+                    "content" : "Wordpress"
+                },
+                {
+                    "type" : "Plugins",
+                    "content" : "ACF, (custom template)"
+                },
+                {
+                    "type" : "Design ",
+                    "content" : "Adobe XD, Adobe Photoshop, Adobe Illustrator"
+                },
+                {
+                    "type" : "Language",
+                    "content" : "HTML, CSS, Javascript, Gulp, Sass, Git"
+                }
+            ],
+            "projects" : [
+                "guidefood.net",
+                "dothemotion.tokyo",
+                "perderp.github.io/san-o-fudousan/",
+                "perderp.github.io/terrace",
+                "perderp.github.io/osean",
+                "k-syu.com/cowscrown"
+            ]
+        },
+        {
+            "id": 3,
+            "company" : "BUKKENOH 物件王 (HIPE CLIENT)",
+            "position" : "Web Developer",
+            "tasks" : [
+                "Create new website and maintaining company website",
+                "PSD/ PDF/ XD to Laravel Blade"
+            ],
+            "uses" : [
+                {
+                    "type" : "Design ",
+                    "content" : "Adobe XD, Adobe Photoshop, Adobe Illustrator"
+                },
+                {
+                    "type" : "Language",
+                    "content" : "Laravel, Html, Css, Javascript, Gulp, Sass, Git, Yarn"
+                }
+            ],
+            "projects" : [
+                "kirakufudousan.com",
+                "iecoco-fudousan.com",
+                "rinovest.com"
+            ]
+        }
+    ]
+  }

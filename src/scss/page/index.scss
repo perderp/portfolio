@@ -1,0 +1,515 @@
+@charset "UTF-8";
+@import "../foundation/**/*";
+
+
+.hero{
+    position: relative;
+    &__inner{
+        position: relative;
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+        @include is-sp{
+            flex-flow:column
+        }
+    }
+
+    &__left{
+        @include is-sp{
+            padding : 0 0 35px;
+        }
+    }
+    &__right{
+        @include is-sp{
+            text-align: center;
+        }
+    }
+    &__group{
+        position: relative;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        @include font-line(30);
+        @include is-tablet{
+            @include font-line(36);
+        }
+        @include is-pc{
+            @include font-line(40);
+            font-weight:900;
+        }
+        &--orange{
+            color:$colortext01;
+        }
+        .subtitle{
+            @include is-sp{
+                text-align: center;
+            }
+            img{
+                @include is-sp{
+                    width:80%;
+                }
+            }
+        }
+    }
+    
+    &__img{
+        height:150px;
+        width:150px;
+        @include is-pc{
+            width:300px;
+            height:300px;
+        }
+        @include is-tablet{
+            height:200px;
+            width:200px;
+        }
+    }
+
+    .circle{
+        position: absolute;
+        background-color: $colortext02;
+        border-radius: 50%;
+        z-index: -2;
+        height:200px;
+        width:200px;
+        @include is-tablet{
+            height:280px;
+            width:280px;
+        }
+        @include is-pc{
+            height: 500px;
+            width: 500px;
+        }
+        &02{
+            position: absolute;
+            z-index: -1;
+            background-color: $colortext01;
+            border-radius: 50%;
+            height:180px;
+            width:180px;
+            @include is-tablet{
+                height:240px;
+                width:240px;
+            }
+            @include is-pc{
+                height:400px;
+                width: 400px;
+            }
+        }
+    }
+
+    .resume{
+        border-color:$colortext-secondary;
+        position: relative;
+        padding: 5px;
+        @include is-pc{
+            @include font-line(24);
+        }
+
+        &__icon{
+            img{
+                position: relative;
+                height:16px;
+                width: 16px;
+                @include is-tablet{
+                    top:-1px;
+                }
+                @include is-pc{
+                    height:25px;
+                    width: 25px;
+                }
+            }
+
+        }
+        &:hover{
+            color:#fff;
+            background-color: $colortext-secondary;
+            transition: 0.2s;
+            .resume__icon{
+                filter:invert(1);
+                transition: 0.2s;
+            }
+        }
+    }
+}
+.about{
+    position: relative;
+
+    &__bg{
+        position: absolute;
+        background: url('../../../public/images/bg_about.png') 0 100% repeat-x;
+        top:-20px;
+        width:100%;
+        height: 80px;
+        background-size:contain;
+
+        @include is-pc{
+            height:128px;
+        }
+
+        @include is-tablet{
+            height:100px;
+        }
+    }
+
+    &__left{
+        @include is-sp{
+            text-align: center;
+            padding: 0 0 20px;
+        }
+    }
+
+    &__inner{
+        overflow: hidden;
+        padding:80px 0;
+        @include is-pc{
+            padding:130px 0 100px;
+        }
+        @include is-tablet{
+            padding:100px 0 100px;
+        }
+    }
+
+    &__body{
+        @include is-sp{
+            flex-flow: column;
+        }
+    }
+
+    &__image{
+        border-radius: 50px;
+        @include is-pc{
+            margin: 0 0 0 30px;
+            border-radius: 50px;
+        }
+    }
+
+    &__content{
+        text-align: justify;
+    }
+
+}
+.experience{
+    position: relative;
+
+    &__inner{
+        overflow: hidden;
+        @include is-pc{
+            padding:100px 0;
+        }
+    }
+    &__group{
+        padding: 10px 0;
+        @include is-pc{
+            padding:15px 0;
+        }
+
+        @include is-sp{
+            flex-flow: column;
+        }
+        &__left{
+            .title{
+                padding:0 0 15px 0;
+                @include is-pc{
+                    padding:0 0 20px 0;
+                }
+                &__text,&__subtext{
+                    font-family: $font-family02;
+                }
+                &__text{
+                    font-weight:700;
+                    @include font-line(28,28);
+                    @include is-pc{
+                        @include font-line(32,32)
+                    }
+                }   
+                &__subtext{
+                    font-weight:500;
+                    @include font-line(18,18);
+                    @include is-pc{
+                        @include font-line(22,22)
+                    }
+                }
+            }
+
+            .tasks{
+                padding: 0 0 20px 0;
+                @include is-pc{
+
+                }
+                .task{
+                    list-style-type: "\1F44D";
+                    margin:0 0 0 20px;
+                }
+            }
+
+            .uses{
+                @include is-pc{
+                    padding: 0 0 30px;
+                }
+                &__group{
+                    .title{
+                        font-weight:700;
+                    }
+                }
+            }
+        }
+        &__right{
+            .projects{
+                justify-content: space-between;
+
+                &__title{
+                    font-weight:700;
+                }
+                &__list{
+                    .list{
+                        &:visited{
+                            color:$colortext02;
+                        }
+                        &::before{
+                            content: '\21FE';
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__overlay{
+
+        &__spin{
+            position: absolute;
+            @include is-tablet{
+                width:80px;
+            }
+            @include is-sp{
+                width:60px;
+            }
+            &--01{
+                top:0;
+                left:0;
+
+                @include is-pc{
+                    top: -315px;
+                    left: 200px;
+                }
+                @include is-tablet{
+                    top:-70px;
+                    left:330px;
+                }
+                @include is-sp{
+                    top:-60px;
+                    left:15px;
+                }
+            }
+            &--02{
+                top:0;
+                right:0;
+
+                @include is-pc{
+                    top:350px;
+                    right:150px;
+                }
+                @include is-tablet{
+                    top:205px;
+                    right:70px;
+                }
+                @include is-sp{
+                    top:550px;
+                    right:10px;
+                }
+            }
+            &--03{
+                bottom:0;
+                left:0;
+
+                @include is-pc{
+                    bottom:350px;
+                    left:150px;
+                }
+                @include is-tablet{
+                    bottom:330px;
+                    left:300px;
+                }
+                @include is-sp{
+                    bottom:50px;
+                    left: auto;
+                    right:45px;
+                }
+            }
+        }
+    }
+
+
+}
+.skills{
+    position: relative;
+    &__inner{
+        overflow: hidden;
+        @include is-pc{
+            padding:100px 0 50px;
+        }
+    }
+    &__type{
+        width: 100%;
+        .content{
+            display:flex;
+            flex-wrap:wrap;
+            &__list{
+                list-style-type: "\1F4CC";
+                width:calc(100% / 2);
+                @include is-tablet{
+                    width:calc(100% / 3);
+                }
+                @include is-pc{
+                    width: calc(100% / 4);
+                }
+            }
+        }
+    }
+    &__body{
+        padding:0 0 20px 20px;
+        @include is-sp{
+
+        }
+    }
+
+    &__overlay{
+        &__spin{
+            position: absolute;
+            @include is-sp{
+                width:60px;
+            }
+            @include is-tablet{
+                width:80px;
+            }
+            &--01{
+                top:0;
+                right:0;
+
+                @include is-pc{
+                    top:-100px;
+                    right:280px;
+                }
+                @include is-tablet{
+                    top:-50px;
+                    right:70px;
+                }
+                @include is-sp{
+                    top:20px;
+                    right:60px;
+                }
+            }
+            &--02{
+                top:0;
+                left:0;
+
+
+                @include is-pc{
+                    top:350px;
+                    left:100px;
+                }
+                @include is-tablet{
+                    top:215px;
+                    left:160px;
+                }
+                @include is-sp{
+                    top:380px;
+                    left:111px;
+                }
+            }
+            &--03{
+                bottom:0;
+                right:0;
+
+                @include is-pc{
+                    bottom:50px;
+                    right:100px;
+                }
+                @include is-tablet{
+                    bottom:30px;
+                    right:30px;
+                }
+                @include is-sp{
+                    bottom:88px;
+                    right:50px;
+                }
+            }
+        }
+    }
+}
+.contact{
+    position:relative;
+    &__bg{
+        position: absolute;
+        background:url('../../../public/images/bg_contact.png') 100% 100%;
+        width: 100%;
+        height: 80px;
+        background-size: contain;
+
+        @include is-pc{
+            height:112px;
+        }
+        @include is-tablet{
+            height:100px;
+        }
+    }
+    &__inner{
+        height:100vh;
+
+        display:flex;
+        align-items: center;
+    }
+    &__body{
+        display:flex;
+        flex-flow:column;
+        align-items: center;
+    }
+    .content{
+
+        &__top{
+            @include font-line(48);
+            @include is-tablet{
+                @include font-line(58);
+            }
+            @include is-pc{
+                @include font-line(64);
+            }
+            font-family : $font-family02;
+
+        }
+        &__center{
+            @include font-line(16);
+            @include is-tablet{
+                @include font-line(18);
+            }
+            @include is-pc{
+                @include font-line(24);
+            }
+        }
+        &__bottom{
+            padding: 10px 0 0 0;
+            .contact{
+                border-color:$colortext-secondary;
+                @include font-line(16);
+                padding:5px;
+                @include is-tablet{
+                    @include font-line(18);
+                }
+                @include is-pc{
+                    @include font-line(24);
+                }
+
+                &:hover{
+                    color:#fff;
+                    background-color: $colortext-secondary;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+
