@@ -154,6 +154,28 @@
                 "iecoco-fudousan.com",
                 "rinovest.com"
             ]
+        },
+        {
+            "id": 4,
+            "company" : "Datawords 24/7",
+            "position" : "Jr. Digital Specialist",
+            "tasks" : [
+                "E-commerce using Salesforce ",
+                "Localization"
+            ],
+            "uses" : [
+                {
+                    "type" : "CMS",
+                    "content" : "SalesForce Sales Cloud"
+                },
+                {
+                    "type" : "Design ",
+                    "content" : "Adobe Photoshop"
+                }
+            ],
+            "projects" : [
+
+            ]
         }
     ]
   }
