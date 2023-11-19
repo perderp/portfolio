@@ -43,7 +43,8 @@
                 "Visual Studio Code",
                 "Wordpress",
                 "Sitebeat",
-                "Siteplus"
+                "Siteplus",
+                "Salesforce Demandware"
             ]
         },
         {
@@ -160,20 +161,33 @@
             "company" : "Datawords 24/7",
             "position" : "Jr. Digital Specialist",
             "tasks" : [
-                "E-commerce using Salesforce ",
-                "Localization"
+                "Configuration and adaptation of website through CMS (Salesforce Demandware)",
+                "Editing of digital assets (PSD, Banners...)",
+                "Work of several project request simultaneously while meeting tight deadlines",
+                "Quality assurance of digital support across dekstop and mobile environments",
+                "Communicate project status and deliverables with project lead/senior",
+                "Flexible and constructive when responding to chaging deadline"
+                
             ],
             "uses" : [
+                {
+                    "type" : "Language",
+                    "content" : "HTML, CSS, Javascript"
+                },
                 {
                     "type" : "CMS",
                     "content" : "SalesForce Sales Cloud"
                 },
                 {
                     "type" : "Design ",
-                    "content" : "Adobe Photoshop"
+                    "content" : ["Adobe Photoshop", "Figma"]  
                 }
             ],
             "projects" : [
+              "https://www.skinceuticals.com/",
+              "https://www.yslbeauty.com/",
+              "https://www.mugler.com/",
+              "https://int.clarins.com/"
 
             ]
         }
