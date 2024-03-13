@@ -159,7 +159,7 @@
         {
             "id": 4,
             "company" : "Datawords 24/7",
-            "position" : "Jr. Digital Specialist",
+            "position" : "Digital Specialist I",
             "tasks" : [
                 "Configuration and adaptation of website through CMS (Salesforce Demandware)",
                 "Editing of digital assets (PSD, Banners...)",
@@ -172,7 +172,7 @@
             "uses" : [
                 {
                     "type" : "Language",
-                    "content" : "HTML, CSS, Javascript"
+                    "content" : "HTML, CSS, Javascript, jQuery"
                 },
                 {
                     "type" : "CMS",
