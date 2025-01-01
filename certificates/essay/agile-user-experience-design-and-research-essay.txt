@@ -1,0 +1,88 @@
+Introduction:
+
+Overview of how UX design and research integrate into agile workflows.
+
+Chapter 1: History and Building Up to Agile: Waterfall and Lean:
+
+Understanding the history and methodology of Waterfall and Lean.
+Key takeaways and deep dives into the positives and negatives of Waterfall.
+Introduction to Lean principles and popular terms.
+
+Chapter 2: Origins of Agile:
+
+Introduction to agile methodology.
+Exploration of the Agile Manifesto and its principles.
+
+Chapter 3: Agile Frameworks:
+
+Overview of Scrum and Kanban frameworks.
+Key terminology, roles, and processes in Scrum.
+Introduction to the Kanban process.
+Discussion on pain points for UX teams using agile frameworks.
+
+Chapter 4: Solutions:
+
+Strategies for integrating UX into agile, including workshops, Sprint N-1, and dual-track agile.
+
+Conclusion:
+
+Next steps and final thoughts on applying the concepts learned.
+
+== QUIZES ====
+
+What does MVP stand for?
+Minimum Viable Product is the term to describe putting forth just enough of your product to get feedback from users to see if you are on the right track.
+
+
+The main idea behind Lean is that you constantly gather feedback from users and then use that feedback to make changes.
+Lean is an iterative process based on running small experiments with users to get feedback and improve your product.
+
+
+Which statement best describes Waterfall?
+It allows you to have a whole picture before starting the UX process.
+Before you start the UX process, you get the product's specifications in order to see the whole picture.
+
+
+Which best describes how the product manager creates the product requirement document (PRD) in a Waterfall process?
+They work primarily alone with little input from the other delivery team members.
+The product manager works largely on their own since the other teams are working on different projects that already have a PRD.
+Agile User Experience Design and Research
+
+UX professionals helped create the Manifesto for Agile Software Development.
+The Manifesto for Agile Software Development was created by a group of software engineers. There were no UX professionals involved.
+
+
+What is the name of the meeting that occurs most frequently in a Scrum Framework?
+daily standup
+
+What is the goal of Kanban?
+to minimize multitasking
+Kanban's goal is to minimize the amount of work in-progress so you minimize context switching and therefore maximize efficiency.
+
+What pain point(s) do UX resources encounter when working in an Agile environment?
+short timelines and lack of a big picture view
+Short timelines make it difficult to conduct proper research, and the lack of a holistic view makes design decisions difficult.
+
+
+What is the main difference between an epic and user story?
+Epics describe the larger vision, while user stories focus on and what you work on during a sprint.
+Epics are broken down into user stories and that is what contains the detailed information we need to work on in a sprint.
+
+Where will a UX designer be located in a Scrum framework?
+Scrum team
+The Scrum team includes both UX and development resources.
+
+What are the two primary Agile frameworks?
+Scrum and Kanban are the two primary frameworks.
+
+
+
+
+
+
+
+
+
+
+
+

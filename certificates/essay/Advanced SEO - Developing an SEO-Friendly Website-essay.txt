@@ -1,0 +1,73 @@
+Here's a detailed summary of the key topics covered in the course "Advanced SEO: Developing an SEO-Friendly Website":
+
+Course Overview
+Improving Site Indexability and Crawlability: Learn how to make your site more accessible to search engines.
+Creating Your Site Architecture: Understand the importance of a well-structured site architecture.
+Picking a Domain Name: Tips on choosing an SEO-friendly domain name.
+Managing URLs: Strategies for effective URL management, including the use of canonical URLs to avoid duplicate content.
+Using Site Tags: Learn about different site tags and their importance.
+Using Descriptive Image Names and Alt Text: Optimize images for SEO.
+Investing in Structured Data and Schema Markup: Enhance your site's data to improve search engine understanding.
+Optimizing Your Code: Techniques to optimize your website's code for better performance.
+
+Detailed Breakdown by Chapter
+Introduction
+
+Welcome
+What you should know before getting started
+What is an SEO-friendly website?
+
+Optimized Website Architecture
+
+Components of on-site SEO
+Optimization from the perspective of Google
+
+Creating Your Information Architecture
+
+Indexable content
+Improving site indexability
+Crawlability
+Robots.txt
+Site information architecture
+Creating your site architecture
+HTTP vs. HTTPS
+Subdomains
+Picking a domain name
+Site maps
+
+Managing Your URLs
+
+URL structure
+Canonical URLs
+Pagination
+HTTP status codes
+Mobile and desktop friendly
+
+Optimizing Your Content Structure
+
+Site tags
+Term Frequency–Inverse Document Frequency (TF-IDF)
+Image filenames and alt attributes
+
+Introducing Structured Data
+
+Structured data
+Schema.org
+
+Technical Makeup
+
+Site speed
+JavaScript and the DOM
+Critical rendering path
+HTTP/2
+Progressive web apps
+
+Conclusion
+
+Next steps
+
+
+This summary should help you reinforce your understanding of the course content. Feel free to revisit specific videos for more detailed information on each topic.
+
+Send positive feedback
+
